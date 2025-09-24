@@ -1,0 +1,275 @@
+﻿@model IEnumerable<Inventory_Managment_System_Project.Models.Product>
+@{
+    ViewData["Title"] = "Products Management";
+    
+}
+
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Inventory Management System</title>
+    <link rel="stylesheet" href="~/css/sidebar.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+<style>
+    .products-container {
+        padding: 20px;
+        background: #F0F4FF;
+        min-height: 100vh;
+    }
+
+    .page-header {
+        background: linear-gradient(135deg, #1A3C6E 0%, #4A6FA5 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .add-btn {
+        background: white;
+        color: #1A3C6E;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .add-btn:hover {
+            background: #f0f4ff;
+            transform: translateY(-2px);
+    }
+
+
+    .product-header {
+        margin-bottom: 15px;
+    }
+
+    .product-name {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #1A3C6E;
+        margin-bottom: 5px;
+    }
+
+    .product-category {
+        color: #666;
+        font-size: 0.9rem;
+        background: #f0f4ff;
+        padding: 4px 12px;
+        border-radius: 20px;
+        display: inline-block;
+    }
+
+    .product-details {
+        margin: 20px 0;
+    }
+
+    .product-price {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #1A3C6E;
+        margin-bottom: 10px;
+    }
+
+    
+    .btn {
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    font-weight: 500;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+    .action-btn {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        text-align: center;
+    }
+
+    .btn-edit {
+            background: #2563eb;
+            color: ghostwhite;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+    }
+
+        .btn-edit:hover {
+                background: #1c34d4;
+                color: #fff;
+                transform: translateY(-2px);
+        }
+
+    .btn-delete {
+            background: #ef4444;
+            color: aliceblue;
+            padding: 12px 20px;
+			border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 3px;
+    }
+
+        .btn-delete:hover {
+                background: #d1363c;
+                color: #fff;
+                transform: translateY(-2px);
+        }
+
+
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .modern-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+        .modern-table th {
+            background: #f8fafc;
+            color: #1A3C6E;
+            font-size: 0.95rem;
+            font-weight: 700;
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .modern-table td {
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #4a5568;
+        }
+
+        .modern-table tbody td:first-child {
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .modern-table tbody tr:hover {
+            background: #f7fafc;
+        }
+
+    .status-badge {
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .status-pending {
+        background: #fed7d7;
+        color: #c53030;
+    }
+
+    .status-completed {
+        background: #c6f6d5;
+        color: #2d7d32;
+    }
+
+    .status-processing {
+        background: #bee3f8;
+        color: #2b6cb0;
+    }
+
+    .price {
+        font-weight: 600;
+        color: #1A3C6E;
+    }
+</style>
+</head>
+<body>
+<div class="products-container">
+    <div class="page-header"> <div>
+        <h1>Product Management</h1> 
+        <p>Display and manage all products in the system</p> 
+    </div>
+            <a asp-action="Create" class="add-btn">
+        <span class="material-symbols-outlined">add</span> Add New Product </a> </div>
+
+    <!-- Product Table -->
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-body p-4">
+            <div class="table-responsive">
+                    <table class="modern-table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Product ID</th>
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Stock</th>
+                            <th>Price</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model)
+                        {
+                            <tr>
+                                <td class="fw-bold">@product.ProductId</td>
+                                <td class="text-start">
+                                    <span class="fw-semibold">@product.Name</span>
+                                </td>
+                                <td>
+                                        <span class="badge bg-info text-dark">@product.Category?.CategoryName</span>
+                                </td>
+                                <td>
+                                    <span class="@(product.Stock > 50 ? "badge bg-success" : product.Stock > 10 ? "badge bg-warning text-dark" : "badge bg-danger")">
+                                        @product.Stock
+                                    </span>
+                                </td>
+                                <td class="fw-bold text-success">@product.Price.ToString("C")</td>
+                                <td>
+                                        <a asp-action="Edit" asp-route-id="@product.ProductId" class="btn-edit">
+                                            <i class="bi bi-pencil-square"></i> Edit
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@product.ProductId" class="btn-delete">
+                                            <i class="bi bi-trash"></i> Delete
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

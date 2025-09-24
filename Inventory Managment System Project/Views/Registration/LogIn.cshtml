@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = null; // مش هيرث من _Layout عشان يفضل التصميم منفصل زي الصورة
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/Registration.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <style>
+        .if {
+            text-align: center;
+            margin-top: 20px;
+		}
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="text">Sign In</div>
+        <form asp-action="Login" method="post">
+            <div class="field">
+                <input type="text"
+					   name= "UserNameOrEmail"
+					   required />
+                <span class="fas fa-user"></span>
+                <label>Enter Username or Email</label>
+            </div>
+
+            <div class="field">
+                <input type="password" name="Password" required />
+                <span class="fas fa-lock"></span>
+                <label>Password</label>
+            </div>
+
+            <div class="forgot-pass">
+                <a asp-action="ForgotPassword">Forgot Password?</a>
+            </div>
+
+            <button type="submit">Sign in</button>
+            <p class="mt-3">
+                Don't have an account?
+                <a asp-controller="Registration" asp-action="Signup">Sign Up</a>
+            </p>
+            
+        </form>
+
+     <div class="if">
+            @if (ViewBag.Message != null)
+            {
+                <p style="color:red">@ViewBag.Message</p>
+            }
+            @if (TempData["Message"] != null)
+            {
+                <p style="color:green">@TempData["Message"]</p>
+            }
+     </div>
+    
+    </div>
+
+
+</body>
+</html>
+

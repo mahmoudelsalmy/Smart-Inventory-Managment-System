@@ -1,0 +1,285 @@
+﻿@model Inventory_Managment_System_Project.Models.Dashboard
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Inventory Management System</title>
+    <link rel="stylesheet" href="~/css/sidebar.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
+
+<style>
+
+    
+    .dashboard-container {
+        padding: 20px;
+        background: #F0F4FF;
+        min-height: 100vh;
+    }
+
+    .dashboard-header {
+        background: linear-gradient(135deg, #1A3C6E 0%, #4A6FA5 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 15px rgba(26, 60, 110, 0.2);
+    }
+
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .stat-card {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        transition: transform 0.2s ease;
+    }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+    .stat-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        color: white;
+        font-size: 24px;
+    }
+
+        .stat-icon.products {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .stat-icon.orders {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .stat-icon.revenue {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .stat-icon.stock {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1A3C6E;
+        margin-bottom: 5px;
+    }
+
+    .stat-label {
+        color: #666;
+        font-weight: 500;
+    }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+    .content-card {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+        .content-card h3 {
+            color: #1A3C6E;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .modern-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+        .modern-table th {
+            background: #f8fafc;
+            color: #1A3C6E;
+            font-weight: 600;
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .modern-table td {
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #4a5568;
+        }
+
+        .modern-table tbody tr:hover {
+            background: #f7fafc;
+        }
+
+    .status-badge {
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .status-pending {
+        background: #fed7d7;
+        color: #c53030;
+    }
+
+    .status-completed {
+        background: #c6f6d5;
+        color: #2d7d32;
+    }
+
+    .status-processing {
+        background: #bee3f8;
+        color: #2b6cb0;
+    }
+
+    .price {
+        font-weight: 600;
+        color: #1A3C6E;
+    }
+
+
+
+
+
+    
+</style>
+</head>
+<body>
+
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h1>Welcome to Home</h1>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon products">
+                <span class="material-symbols-outlined">inventory_2</span>
+            </div>
+            <div class="stat-number">@Model.TotalProducts</div>
+                <div class="stat-label">Total Products</div>
+            </div>
+
+        <div class="stat-card">
+            <div class="stat-icon orders">
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
+            <div class="stat-number">@Model.TotalOrders</div>
+            <div class="stat-label">Total Orders</div>
+            
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon revenue">
+                <span class="material-symbols-outlined">attach_money</span>
+            </div>
+             <div class="stat-number">@Model.TotalRevenue.ToString("C")</div>
+            <div class="stat-label">Total Revenue</div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon stock">
+                <span class="material-symbols-outlined">warning</span>
+            </div>
+            <div class="stat-number">@Model.LowStockItems</div>
+            <div class="stat-label">Low Stock Items</div>
+        </div>
+    </div>
+
+    <div class="content-grid">
+        <div class="content-card">
+            <h3>Recent Products</h3>
+            <div class="table-responsive">
+                <table class="modern-table">
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Category Name</th>
+                            <th>Stock</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model.RecentProducts)
+                        {
+                            <tr>
+                                <td>@product.Name</td>
+                                <td>@product.Category?.CategoryName</td>
+                                <td>@product.Stock</td>
+                                <td class="price">@product.Price.ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h3>Recent Orders</h3>
+            <div class="table-responsive">
+                <table class="modern-table">
+                    <thead>
+                        <tr>
+                            <th>Order Id</th>
+                            <th>Customer Name</th>
+                            <th>Total Price</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model.RecentOrders)
+                        {
+                            <tr>
+                                <td>#@order.OrderId</td>
+                                <td>@order.User?.Username</td>
+                                <td class="price">@order.TotalPrice.ToString("C")</td>
+                                <td>
+                                    <span class="status-badge status-@(order.Status?.ToLower() ?? "pending")">
+                                        @order.Status
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,536 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net\\Project\\Inventory Managment System Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\inventory managment system project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\inventory managment system project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\inventory managment system project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\inventory managment system project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\migrations\\20250915235553_returndb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\migrations\\20250915235553_returndb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\models\\mycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\models\\mycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\migrations\\20250915234146_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\migrations\\20250915234146_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\views\\setting\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\views\\setting\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\views\\order\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\views\\order\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\views\\product\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\views\\product\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|d:\\.net\\project\\inventory managment system project\\inventory managment system project\\wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4F486F2F-62EA-456D-96CB-F154FDA734D5}|Inventory Managment System Project\\Inventory Managment System Project.csproj|solutionrelative:inventory managment system project\\wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Program.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Program.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Program.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwEwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Models\\Report.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\Report.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Inventory Managment System Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T20:49:53.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250915235553_ReturnDB.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Migrations\\20250915235553_ReturnDB.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Migrations\\20250915235553_ReturnDB.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Migrations\\20250915235553_ReturnDB.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Migrations\\20250915235553_ReturnDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA3wBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WarehouseController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\WarehouseController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\WarehouseController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\WarehouseController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\WarehouseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\InvoicesController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\InvoicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShipmentController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\ShipmentController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\ShipmentController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\ShipmentController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\ShipmentController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SettingController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\SettingController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\SettingController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\SettingController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\SettingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MyContact.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\MyContact.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Models\\MyContact.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\MyContact.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Models\\MyContact.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\appsettings.json",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\appsettings.json",
+              "RelativeToolTip": "Inventory Managment System Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-20T20:49:53.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "bundleconfig.json",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\bundleconfig.json",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\bundleconfig.json",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\bundleconfig.json",
+              "RelativeToolTip": "Inventory Managment System Project\\bundleconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-20T20:49:53.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250915234146_Identity.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Migrations\\20250915234146_Identity.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Migrations\\20250915234146_Identity.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Migrations\\20250915234146_Identity.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Migrations\\20250915234146_Identity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Models\\SignUp.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\SignUp.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Models\\SignUp.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA7wC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Models\\User.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\User.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Models\\User.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Models\\Product.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Models\\Product.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory Managment System Project.csproj",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "RelativeToolTip": "Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-08T22:17:45.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Inventory Managment System Project\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-20T20:49:53.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PagesController.cs",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\PagesController.cs",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Controllers\\PagesController.cs",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Controllers\\PagesController.cs",
+              "RelativeToolTip": "Inventory Managment System Project\\Controllers\\PagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:49:53.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Views\\Dashboard\\Dashboard.cshtml",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeToolTip": "Inventory Managment System Project\\Views\\Dashboard\\Dashboard.cshtml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAcwO4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T20:49:53.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Notification.cshtml",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Setting\\Notification.cshtml",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Views\\Setting\\Notification.cshtml",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Setting\\Notification.cshtml",
+              "RelativeToolTip": "Inventory Managment System Project\\Views\\Setting\\Notification.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAMBVwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T20:49:53.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Order\\Order.cshtml",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Views\\Order\\Order.cshtml",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Order\\Order.cshtml",
+              "RelativeToolTip": "Inventory Managment System Project\\Views\\Order\\Order.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAjwGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T20:49:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Product\\Product.cshtml",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Views\\Product\\Product.cshtml",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Views\\Product\\Product.cshtml",
+              "RelativeToolTip": "Inventory Managment System Project\\Views\\Product\\Product.cshtml",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAjwJsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T20:49:53.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "sidebar.css",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\wwwroot\\css\\sidebar.css",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\wwwroot\\css\\sidebar.css",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\wwwroot\\css\\sidebar.css",
+              "RelativeToolTip": "Inventory Managment System Project\\wwwroot\\css\\sidebar.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAMBVwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-20T20:49:53.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inventory Managment System Project",
+              "DocumentMoniker": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "RelativeDocumentMoniker": "Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "ToolTip": "D:\\.Net\\Project\\Inventory Managment System Project\\Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "RelativeToolTip": "Inventory Managment System Project\\Inventory Managment System Project.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-28T14:50:26.186Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

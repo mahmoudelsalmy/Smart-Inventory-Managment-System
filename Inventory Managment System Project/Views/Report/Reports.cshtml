@@ -1,0 +1,157 @@
+﻿@model IEnumerable<Report>
+
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Inventory Management System</title>
+    <link rel="stylesheet" href="~/css/sidebar.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        .reports-container {
+            padding: 20px;
+            background: #F0F4FF;
+            min-height: 100vh;
+        }
+
+        .page-header {
+            background: linear-gradient(135deg, #1A3C6E 0%, #4A6FA5 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .export-btn {
+            background: white;
+            color: #1A3C6E;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: 8px;
+			margin-top: 4px;
+        }
+
+            .export-btn:hover {
+                background: #f0f4ff;
+                transform: translateY(-2px);
+            }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .modern-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+            .modern-table th {
+                background: #f8fafc;
+                color: #1A3C6E;
+                font-size: 0.95rem;
+                font-weight: 700;
+                padding: 15px;
+                text-align: left;
+                border-bottom: 2px solid #e2e8f0;
+            }
+
+            .modern-table td {
+                padding: 15px;
+                border-bottom: 1px solid #e2e8f0;
+                color: #4a5568;
+            }
+
+            .modern-table tbody tr:hover {
+                background: #f7fafc;
+            }
+
+        .badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .price {
+            font-weight: 600;
+            color: #1A3C6E;
+        }
+    </style>
+</head>
+<body>
+    <div class="reports-container">
+        <div class="page-header">
+            <div>
+                <h1>Reports</h1>
+                <p>Overview of products, categories, orders, shipments, and users</p>
+            </div>
+            <div>
+                <a asp-action="ExportExcel" class="export-btn">
+                    <i class="bi bi-file-earmark-excel"></i> Export Excel
+                </a>
+                <a asp-action="ExportPdf" class="export-btn">
+                    <i class="bi bi-file-earmark-pdf"></i> Export PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Reports Table -->
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-body p-4">
+                <div class="table-responsive">
+                    <table class="modern-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Product</th>
+                                <th>Category</th>
+                                <th>Stock</th>
+                                <th>Price</th>
+                                
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="badge bg-info text-dark">@item.ProductId</td>
+                                    <td class="badge bg-info text-dark">@item.ProductName</td>
+                                    <td>
+                                        <span class="badge bg-info text-dark">@item.CategoryName</span>
+                                    </td>
+                                    <td>
+                                        <span class="@(item.Stock > 50 ? "badge bg-success" : item.Stock > 10 ? "badge bg-warning text-dark" : "badge bg-danger")">
+                                            @item.Stock
+                                        </span>
+                                    </td>
+                                    <td class="price">@item.Price?.ToString("C")</td>
+                                    
+                                    
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

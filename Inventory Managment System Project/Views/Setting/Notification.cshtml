@@ -1,0 +1,125 @@
+﻿@model IEnumerable<Inventory_Managment_System_Project.Models.Product>
+@{
+    ViewData["Title"] = "Low Stock Notifications";
+}
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Inventory Management System</title>
+    <link rel="stylesheet" href="~/css/sidebar.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        .products-container {
+            padding: 20px;
+            background: #F0F4FF;
+            min-height: 100vh;
+        }
+
+        .page-header {
+            background: linear-gradient(135deg, #c53030 0%, #ef4444 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .modern-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+            .modern-table th {
+                background: #f8fafc;
+                color: #1A3C6E;
+                font-size: 0.95rem;
+                font-weight: 700;
+                padding: 15px;
+                text-align: left;
+                border-bottom: 2px solid #e2e8f0;
+            }
+
+            .modern-table td {
+                padding: 15px;
+                border-bottom: 1px solid #e2e8f0;
+                color: #4a5568;
+            }
+
+            .modern-table tbody tr.low-stock {
+                background: #ffe5e5;
+            }
+
+        .badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .badge-danger {
+            background: #ef4444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="products-container">
+        <div class="page-header">
+            <div>
+                <h1>🔔 Low Stock Notifications</h1>
+                <p>Here are the products with low stock levels</p>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-body p-4">
+                <div class="table-responsive">
+                    <table class="modern-table">
+                        <thead>
+                            <tr>
+                                <th>Product ID</th>
+                                <th>Product Name</th>
+                                <th>Category</th>
+                                <th>Stock</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (!Model.Any())
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center text-success fw-bold">
+                                        ✅ All products are sufficiently stocked
+                                    </td>
+                                </tr>
+                            }
+                            else
+                            {
+                                @foreach (var product in Model)
+                                {
+                                    <tr class="low-stock">
+                                        <td>@product.ProductId</td>
+                                        <td>@product.Name</td>
+                                        <td>@product.Category?.CategoryName</td>
+                                        <td>
+                                            <span class="badge badge-danger">@product.Stock</span>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

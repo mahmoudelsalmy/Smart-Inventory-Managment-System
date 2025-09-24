@@ -1,0 +1,24 @@
+﻿@model Inventory_Managment_System_Project.Models.User
+
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+
+
+<div class="card shadow-lg p-4 mt-4">
+    <h2 class="mb-4">Welcome, @Model.Username</h2>
+
+    <dl class="row">
+        <dt class="col-sm-3">Full Name</dt>
+        <dd class="col-sm-9">@Model.Username</dd>
+
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+        <dt class="col-sm-3">Password</dt>
+        <dd class="col-sm-9">@Model.Password</dd>
+    </dl>
+
+    <a asp-action="Edit" asp-route-id="@Model.UserId" class="btn btn-primary">Edit Profile</a>
+</div>
