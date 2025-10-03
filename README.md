@@ -50,7 +50,7 @@
 - ➕ Add, edit, and delete products  
 - 📦 Track stock levels with real-time updates  
 - 👥 Manage users and assign roles  
-- 📊 Generate inventory reports  
+- 📊 Generate inventory reports (PDF/Excel)  
 - 🔔 Low-stock alerts  
 - 🎨 Responsive and modern UI  
 
