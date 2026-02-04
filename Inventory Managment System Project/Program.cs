@@ -21,7 +21,6 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication();
 builder.Services.AddSession();
 
@@ -40,7 +39,7 @@ app.UseRouting();
 
 
 app.UseSession();
-app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapStaticAssets();

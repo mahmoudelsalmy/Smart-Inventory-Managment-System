@@ -1,38 +1,33 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Inventory_Managment_System_Project.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Inventory_Managment_System_Project.Models;
 
 namespace Inventory_Managment_System_Project.Models
 {
-    public class MyContext : DbContext
+    public class MyContext : IdentityDbContext<IdentityUser>
     {
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-     => optionsBuilder.UseSqlServer("Server=MAHMOUD\\SQLEXPRESS;Database=InventoryManagment;Trusted_Connection=True; TrustServerCertificate=True;");
-
-
-        protected override void OnModelCreating(ModelBuilder modelbuilder)
+        public MyContext(DbContextOptions<MyContext> options)
+            : base(options)
         {
-            // optionsBuilder.Entity<Trainingcourses>()
-            //  .Property(prop => p.M).HasColumnName("Maximum");
-
-            modelbuilder.HasDefaultSchema("ER");
-
-            //modelbuilder.Entity<Author>().HasIndex(p => p.FirstName);
-            modelbuilder.Entity<Admin>().Property(p => p.FullName).HasComputedColumnSql("[FirstName] + ' '+ [LastName]");
-            //modelbuilder.Entity<Book>().Property(b => b.Title).HasDefaultValue("None");
         }
 
-        public MyContext(DbContextOptions<MyContext> options) : base(options) { }
-
-        public MyContext()
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.HasDefaultSchema("ER");
+
+            modelBuilder.Entity<Admin>()
+                .Property(p => p.FullName)
+                .HasComputedColumnSql("[FirstName] + ' ' + [LastName]");
         }
 
         public DbSet<Category> Categories { get; set; }

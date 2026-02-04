@@ -6,7 +6,12 @@ namespace Inventory_Managment_System_Project.Controllers
 
     public class WarehouseController : Controller
     {
-        MyContext _context = new MyContext();
+        private readonly MyContext _context;
+
+        public WarehouseController(MyContext context)
+        {
+            _context = context;
+        }
 
         public IActionResult Warehouse()
         {

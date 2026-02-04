@@ -7,6 +7,7 @@
     <Controller_SelectedScaffolderCategoryPath>root/Common/MVC/Controller</Controller_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_EnablerDialogWidth>650</WebStackScaffolding_EnablerDialogWidth>
     <ActiveDebugProfile>http</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>D:\Smart-Inventory-Managment-System-main\Smart-Inventory-Managment-System-main\Inventory Managment System Project\Properties\PublishProfiles\site43446-WebDeploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

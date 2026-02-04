@@ -8,7 +8,12 @@ namespace Inventory_Managment_System_Project.Controllers
 
     public class ShipmentController : Controller
     {
-        MyContext _context = new MyContext();
+        private readonly MyContext _context;
+
+        public ShipmentController(MyContext context)
+        {
+            _context = context; 
+        }
 
 
         // GET: Shipment

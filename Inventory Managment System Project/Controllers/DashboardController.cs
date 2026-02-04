@@ -10,7 +10,12 @@ namespace Inventory_Managment_System_Project.Controllers
     //[Authorize(Roles = "Admin")]
     public class DashboardController : Controller
     {
-        MyContext _context = new MyContext();
+        private readonly MyContext _context;
+
+        public DashboardController(MyContext context)
+        {
+            _context = context; 
+        }
 
         public IActionResult Dashboard()
         {
@@ -19,7 +24,7 @@ namespace Inventory_Managment_System_Project.Controllers
                 TotalProducts = _context.Products.Count(),
                 TotalOrders = _context.Orders.Count(),
                 TotalRevenue = _context.Orders.Sum(o => (double?)o.TotalPrice) ?? 0,
-                LowStockItems = _context.Products.Count(p => p.Stock < 15),
+                LowStockItems = _context.Products.Count(p => p.Stock <= 15),
 
                 RecentProducts = _context.Products
                                          .Include(p => p.Category)   

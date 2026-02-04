@@ -8,8 +8,13 @@ namespace Inventory_Managment_System_Project.Controllers
 
     public class SettingController : Controller
     {
-        MyContext _context = new MyContext();
-       
+        private readonly MyContext _context;
+
+        public SettingController(MyContext context)
+        {
+            _context = context;
+        }
+
 
 
         //public async Task<IActionResult> Profile()

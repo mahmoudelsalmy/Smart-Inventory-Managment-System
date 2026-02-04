@@ -12,44 +12,44 @@ namespace Inventory_Managment_System_Project.Models
 {
     public class ConnecttoDatabase
     {
-        private readonly MyContext context;
+        private readonly MyContext _context;
 
-        public ConnecttoDatabase()
+        public ConnecttoDatabase(MyContext context)
         {
-            context = new MyContext();
+            _context = context;
         }
 
         // CRUD 
         public void AddCategory(Category category)
         {
-            context.Add(category);
-            context.SaveChanges();
+            _context.Add(category);
+            _context.SaveChanges();
         }
         public List<Category> GetCategories()
         {
-            return context.Categories.ToList();
+            return _context.Categories.ToList();
         }
         public Category GetCategoryById(int id)
         {
-            return context.Categories.FirstOrDefault(d => d.CategoryId == id); ;
+            return _context.Categories.FirstOrDefault(d => d.CategoryId == id); ;
         }
         public void UpdateCategory(Category category)
         {
-            context.Update(category);
-            context.SaveChanges();
+            _context.Update(category);
+            _context.SaveChanges();
         }
         public void DeleteCategory(int id)
         {
-            var category = context.Categories.Find(id);
+            var category = _context.Categories.Find(id);
             if (category != null)
             {
-                context.Categories.Remove(category);
-                context.SaveChanges();
+                _context.Categories.Remove(category);
+                _context.SaveChanges();
             }
         }
         public List<Category> GetAllCategories()
         {
-            return context.Categories.ToList();
+            return _context.Categories.ToList();
         }
     }
 }

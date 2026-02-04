@@ -14,7 +14,12 @@ namespace Inventory_Managment_System_Project.Controllers
     //[Authorize(Roles = "Admin")]
     public class ReportController : Controller
     {
-        MyContext _context = new MyContext();
+        private readonly MyContext _context;
+
+        public ReportController(MyContext context)
+        {
+            _context = context; 
+        }
 
 
         public IActionResult Reports()
