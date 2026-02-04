@@ -1,74 +1,122 @@
+
 <h1 align="center">
   📦 Smart Inventory Management System
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
-<h3 align="center">A Robust Inventory Management Solution built with ASP.NET Core MVC</h3>
+
+<p align="center">
+  <b>A robust Inventory Management System built with ASP.NET Core MVC</b>
+</p>
+
+<p align="center">
+  <a href="http://smart-inventory-management-system.runasp.net/">
+    🌐 Live Demo
+  </a>
+  •
+  <a href="https://github.com/mahmoudelsalmy/Smart-Inventory-Managment-System">
+    📌 Repository
+  </a>
+</p>
 
 ---
 
-## 📖 About the Project
+## 📌 Overview
 
-- 🛒 A **Smart Inventory Management System** to efficiently manage stock, products, and users.  
-- 🖥️ Built with **C# ASP.NET Core MVC** and **Entity Framework Core**.  
-- 💾 Integrated with **SQL Server** for reliable data storage.  
-- 🎨 Clean and user-friendly interface with **Bootstrap**.  
-- 🚀 Designed for scalability and easy customization.
+**Smart Inventory Management System** is a web-based application designed to help businesses manage:
+
+- Categories & Products  
+- Stock quantities  
+- Orders & invoices  
+- Admin & user roles  
+- Reports (PDF / Excel)
+
+It is built using **ASP.NET Core MVC**, **Entity Framework Core**, and **SQL Server**, with a clean responsive UI using **Bootstrap**.
+
+---
+
+## ✨ Key Features
+
+- ✅ CRUD for Categories, Products, Orders, and Invoices  
+- 📦 Real-time stock tracking  
+- 👥 Authentication & Authorization (Identity)  
+- 🔐 Role-based access control (Admin / User)  
+- 📊 Export Reports (PDF / Excel)
+- 🔔 Low-stock alerts   
+- 📱 Fully responsive modern UI  
 
 ---
 
 ## 🛠️ Tech Stack
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#" />
-      <br>C#
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="48" height="48" alt=".NET Core" />
-      <br>.NET Core
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" width="48" height="48" alt="SQL Server" />
-      <br>SQL Server
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="48" height="48" alt="Bootstrap" />
-      <br>Bootstrap
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-      <br>Git
-    </td>
-  </tr>
-</table>
+| Technology | Description |
+|----------|-------------|
+| C# | Backend logic |
+| ASP.NET Core MVC | Web framework |
+| Entity Framework Core | ORM |
+| SQL Server | Database |
+| Bootstrap | UI / Styling |
+| Git & GitHub | Version control |
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- ➕ Add, edit, and delete products  
-- 📦 Track stock levels with real-time updates  
-- 👥 Manage users and assign roles  
-- 📊 Generate inventory reports (PDF/Excel)  
-- 🔔 Low-stock alerts  
-- 🎨 Responsive and modern UI  
+🔗 **Project Link:**  
+http://smart-inventory-management-system.runasp.net/
 
 ---
+---
 
-## ⚡ Quick Start
+## 🖼️ Screenshots
+
+### 🔐 Login Page
+<img width="1442" height="1023" alt="image" src="https://github.com/user-attachments/assets/7863e59f-8e8e-4d8c-877e-70228bbebeeb" />
+
+
+### 📊 Dashboard
+<img width="1264" height="698" alt="image" src="https://github.com/user-attachments/assets/884c4481-536f-4458-8188-6d116bbec2b0" />
+
+
+### 📦 Products Page
+<img width="2526" height="1375" alt="image" src="https://github.com/user-attachments/assets/298917ba-c7b3-4b40-a28a-fdd8b3dc566e" />
+
+## ⚡ Getting Started (Local Setup)
+
+### 1️⃣ Clone the repository
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/mahmoudelsalmy/Smart-Inventory-Managment-System.git
-
-# 2. Navigate to project folder
+2️⃣ Open the project folder
 cd Smart-Inventory-Managment-System
-
-# 3. Restore dependencies
+3️⃣ Restore dependencies
 dotnet restore
+4️⃣ Configure the database
+Update your connection string inside:
 
-# 4. Update database connection in appsettings.json
+📄 appsettings.json
 
-# 5. Run the project
+Example:
+
+"ConnectionStrings": {
+  "DefaultConnection": "Server=YOUR_SERVER;Database=YOUR_DB;User Id=YOUR_USER;Password=YOUR_PASSWORD;TrustServerCertificate=True;"
+}
+5️⃣ Apply migrations (if needed)
+dotnet ef database update
+6️⃣ Run the project
 dotnet run
+🧪 Default Roles
+Admin
+
+User
+
+Admin users can manage products, categories, and generate reports.
+
+📂 Project Structure
+Inventory Managment System Project/
+│── Controllers/
+│── Models/
+│── Views/
+│── Migrations/
+│── wwwroot/
+│── Program.cs
+│── appsettings.json
